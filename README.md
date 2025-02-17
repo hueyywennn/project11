@@ -45,4 +45,4 @@ develop a predictive model for heart disease diagnosis using machine learning te
 2. **Libraries**
   - pandas, numpy, scikit-learn, matplotlib
 3. **Visualization Tools**
-  - plotly, seaborn
+  - seaborn
