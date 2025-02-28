@@ -2,7 +2,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ### Project Overview
-develop a predictive model for heart disease diagnosis using machine learning techniques.
+This project aims to develop a predictive model for heart disease diagnosis using machine learning techniques. By analyzing key medical attributes, the model can help detect the presence of heart disease and assist healthcare professionals in early diagnosis and treatment.
 
 ### Dataset 
 (https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data)
@@ -23,26 +23,31 @@ develop a predictive model for heart disease diagnosis using machine learning te
 | thal          | Thalassemia (0 = normal, 1 = fixed defect, 2 = reversible defect)                                       |
 | target        | Diagnosis of heart disease (1 = presence, 0 = absence)                                                  |
 
-### Features
-1. **Data Cleaning**
-  -	Checked missing values: none
-2. **Exploratory Data Analysis (EDA)**
-  -	Statistical Summaries: mean, median, variance, and standard deviation
-  -	Correlation Analysis: heatmap correlations
-  -	Distribution Plots: histograms, bar plots,
-  -	Outlier Detection: boxplot
-3. **Machine Learning Models**
-  -	Data Normalization: Standard Scaler
-  -	Classification Algorithms: Random Forest, Logistic Regression, Support Vector Machine (SVM), Gradient Boosting
-  -	Predictive Modeling: Classification
-  -	Test sizes: 10%, 20%, 30%, 40%
-4. **Interactive Visualizations**
-  -	Classification Visualization: Model accuracy across different test sizes
+## Project Objectives
+1. **Data Cleaning & Preprocessing**: Handling missing values, feature normalization, and categorical encoding.
+2. **Exploratory Data Analysis (EDA)**: Understanding the relationships between different medical attributes and heart disease.
+3. **Feature Engineering**: Selecting and transforming features to improve model performance.
+4. **Model Training & Evaluation**: Implementing and comparing multiple machine learning models for heart disease prediction.
+5. **Hyperparameter Tuning**: Optimizing model parameters with trial test sizes of 10%, 20%, 30%, and 40%.
 
-## Tools used
-1. **Programming Language** 
-  - Python
-2. **Libraries**
-  - pandas, numpy, scikit-learn, matplotlib
-3. **Visualization Tools**
-  - seaborn
+## Machine Learning Models Used
+- **Random Forest Classifier**: Ensemble method for improved accuracy.
+- **Logistic Regression**: Baseline model for classification.
+- **Support Vector Machine (SVM)**: Effective for high-dimensional spaces.
+- **Gradient Boosting**: Boosting technique for performance optimization.
+- **Standard Scaler**: Used for feature normalization.
+
+## Technologies Used
+- **Programming Language**: Python
+- **Libraries**: Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn
+- **Data Processing**: Pandas, NumPy for data manipulation
+- **Visualization Tools**: Matplotlib, Seaborn for data exploration
+
+## Project Workflow
+1. **Data Ingestion**: Load and preprocess the dataset.
+2. **Exploratory Data Analysis (EDA)**: Analyze and visualize medical feature relationships.
+3. **Feature Engineering**: Normalize numerical data.
+4. **Model Training**: Train Random Forest, Logistic Regression, SVM, and Gradient Boosting models.
+5. **Hyperparameter Tuning**: Optimize models using different test sizes (10%, 20%, 30%, 40%).
+6. **Model Evaluation**: Compare model performance using evaluation metrics.
+7. **Results Interpretation**: Derive insights and recommendations from predictions.
