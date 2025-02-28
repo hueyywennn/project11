@@ -5,7 +5,7 @@
 This project aims to develop a predictive model for heart disease diagnosis using machine learning techniques. By analyzing key medical attributes, the model can help detect the presence of heart disease and assist healthcare professionals in early diagnosis and treatment.
 
 ### Dataset 
-(https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data)
+**Dataset Source:** [Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data)
 | Name            | Description                                                                                              |
 |----------------|----------------------------------------------------------------------------------------------------------|
 | age            | Age of the patient                                                                                       |
